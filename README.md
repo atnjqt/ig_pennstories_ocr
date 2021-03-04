@@ -6,6 +6,19 @@ The other night I read the following article https://www.thedp.com/article/2021/
 
 My thought was to scrape each image from this instagram account, run Azure OCR (more info [here](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text)), and sort posts per ivy school to identify posts specifically about `penn`. From there we can try the instagram commentGetter containerized web scraper to retrieve comments / engagement on those posts
 
+**_UPDATE_** -->> ivy totals based on OCR text extraction of stories:
+
+```
+princeton    93
+penn         57
+brown        48
+columbia     43
+cornell      42
+harvard      41
+dartmouth    21
+yale         14
+```
+
 ## Get Instagram timeline posts w/ PhantomBuster
 
 - Instagram account: https://www.instagram.com/blackivystories/ `@BlackIvyStories`
