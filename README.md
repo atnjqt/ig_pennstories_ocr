@@ -6,6 +6,11 @@ The other night I read the following article https://www.thedp.com/article/2021/
 
 My thought was to scrape each image from this instagram account, run Azure OCR (more info [here](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-recognizing-text)), and sort posts per ivy school to identify posts specifically about `penn`. From there we can try the instagram commentGetter containerized web scraper to retrieve comments / engagement on those posts
 
+## **_UPDATE_** -->> This branch is working towards docker deploymnet of comment getter... seems I used the `postId` but instead I should have taken the ID from the `postURL` as that would be easier to reconstruct... using postId as an index for the main df to find our penn story urls... 
+
+- good opportunity to improve on this workflow!
+___________
+
 **_UPDATE_** -->> ivy totals based on OCR text extraction of stories:
 
 ```
