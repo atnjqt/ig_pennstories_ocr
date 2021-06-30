@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # just make sure that the container is stopped & removed... 
+#docker restart selenium-chrome
 docker stop commentGetter
 docker rm commentGetter
 

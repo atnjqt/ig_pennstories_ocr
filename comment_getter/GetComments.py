@@ -45,8 +45,8 @@ time_to_wait_for_nxt_click = 0.25 # <-- Int
 # driver = webdriver.Chrome(executable_path='/Users/etiennejacquot/Downloads/chromedriver_v84') 
 # driver = webdriver.Firefox()  # <-- desktop app firefox
 
-# options = webdriver.ChromeOptions() # <-- for selenium-chrome
-options = webdriver.FirefoxOptions() # for selnium-firefox
+options = webdriver.ChromeOptions() # <-- for selenium-chrome
+#options = webdriver.FirefoxOptions() # for selnium-firefox
 selenium_url = 'http://localhost:4444/wd/hub' # <-- docker standalonee selenium browser
 options.add_argument('--headless')
 driver = webdriver.Remote(command_executor=selenium_url,desired_capabilities=options.to_capabilities())
@@ -103,7 +103,9 @@ with open (raw_outfile,"w+") as f:
     
 ##############################################
 # ETL conversion
-driver.quit() # close out of chrome tab (or browser?)
+#driver.quit() # close out of chrome tab (or browser?)
+driver.close() # close out of chrome tab (or browser?)
+
 
 comment_df = pd.DataFrame()
 
