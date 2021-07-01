@@ -1,5 +1,8 @@
+# IGNORE THE FOLLOWING EXTENSIONS:
+*.log
 *.ipynb_checkpoints
 *.json
+*.html
 *.csv
 *.ini
 *.png
