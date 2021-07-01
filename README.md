@@ -1,5 +1,9 @@
 # OCR Text Extraction for Instagram images
 
+## UPDATE 07/01/2021 --> Local Screenshot image OCR
+
+Please review [screenshot-transcribe-ocr.ipynb](./screenshot-transcribe-ocr.ipynb), which is a similar but different project to the Instagram image analysis described below
+
 ## Getting Started
 
 The other night I read the following article https://www.thedp.com/article/2021/03/black-ivy-stories-penn-chemistry-stem
