@@ -1,12 +1,10 @@
 # OCR Text Extraction for Instagram images
 
-<<<<<<< HEAD
 ## UPDATE 07/01/2021 --> Local Screenshot image OCR
 
 Please review [screenshot-transcribe-ocr.ipynb](./screenshot-transcribe-ocr.ipynb), which is a similar but different project to the Instagram image analysis described below
 =======
 Etienne P Jacquot - 06/30/2021
->>>>>>> e8c2df94059cd0f734e596a42e95409170ff09d9
 
 ## Getting Started
 
@@ -62,4 +60,5 @@ key1 = 7cffe7....
 endpoint = https://asc-computervision.cognitiveservices.azure.com/
 region = eastus
 ```
+
 _________________
