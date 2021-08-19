@@ -60,5 +60,4 @@ key1 = 7cffe7....
 endpoint = https://asc-computervision.cognitiveservices.azure.com/
 region = eastus
 ```
-
 _________________
