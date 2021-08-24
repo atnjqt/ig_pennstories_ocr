@@ -61,3 +61,5 @@ endpoint = https://asc-computervision.cognitiveservices.azure.com/
 region = eastus
 ```
 _________________
+
+UPDATE FROM NXCOMMJHUB!
